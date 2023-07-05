@@ -58,7 +58,7 @@ alias la='ls -a'
 alias lla='ls- la'
 alias cat='bat'
 alias vi='nvim'
-alias vim='nvim
+alias vim='nvim'
 alias q='exit'
 
 [ -f ~/.fzf.zsh ] && source ~/.fzf.zsh
