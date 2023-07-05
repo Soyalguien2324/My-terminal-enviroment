@@ -3,7 +3,7 @@ Installing Neovim
 ```
 sudo apt-get install neovim
 ```
-Config nvim
+Configuring nvim
 ```
 wget https://raw.githubusercontent.com/Soyalguien2324/My-terminal-enviroment/main/init.vim
 sudo mv "init.vim" "~/.config/nvim/"
