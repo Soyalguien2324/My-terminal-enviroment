@@ -37,4 +37,5 @@ echo 'source ~/powerlevel10k/powerlevel10k.zsh-theme' >>~/.zshrc
 p10k configure
 ```
 
-Copy the zshrc and paste the content in ~/.zshrc
+Copy the zshrc and paste the content in *~/.zshrc*.
+Open the *~/.config/nvim/init.vim* file and do :PlugInstall
