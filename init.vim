@@ -7,7 +7,7 @@ Plug 'junegunn/fzf'
 Plug 'junegunn/fzf.vim'
 Plug 'iCyMind/NeoSolarized'
 Plug 'scrooloose/nerdtree'
-Plug 'tpope/vim-surround'  " Es buena idea agregar una descripción del plugin Aquí irán los plugins a instalar
+Plug 'tpope/vim-surround' 
 Plug 'sirver/ultisnips'
 Plug 'honza/vim-snippets'
 Plug 'vim-airline/vim-airline'
@@ -60,8 +60,5 @@ augroup END
 let g:SuperTabDefaultCompletionType = '<c-n>'
 " Expandir snippet con Ctrl + j
 let g:UltiSnipsExpandTrigger = '<c-j>'
-
-" Ir a siguiente ubicacion con Ctrl + j
-let g:UltiSnipsJumpForwardTrigger = '<c-j>'
 " Ir a anterior ubicacion con Ctrl + k
 let g:UltiSnipsJumpBackwardTrigger = '<c-k>'
