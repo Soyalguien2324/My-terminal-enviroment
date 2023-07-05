@@ -53,12 +53,13 @@ source /home/s4vitar/powerlevel10k/powerlevel10k.zsh-theme
 PATH=/root/.local/bin:/snap/bin:/usr/sandbox/:/usr/local/bin:/usr/bin:/bin:/usr/local/games:/usr/games:/usr/share/games:/usr/local/sbin:/usr/sbin:/sbin:/usr/local/bin:/usr/bin:/bin:/usr/local/games:/usr/games
 
 # Manual aliases
-alias ll='lsd -lh --group-dirs=first'
-alias la='lsd -a --group-dirs=first'
-alias l='lsd --group-dirs=first'
-alias lla='lsd -lha --group-dirs=first'
-alias ls='lsd --group-dirs=first'
+alias ll='ls -l'
+alias la='ls -a'
+alias lla='ls- la'
 alias cat='bat'
+alias vi='nvim'
+alias vim='nvim
+alias q='exit'
 
 [ -f ~/.fzf.zsh ] && source ~/.fzf.zsh
 
