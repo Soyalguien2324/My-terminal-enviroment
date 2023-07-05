@@ -22,3 +22,4 @@ sudo apt-get install neovim
 sudo usermod -s zsh root
 sudo usermod -s /usr/bin/zsh root
 ```
+
