@@ -27,8 +27,11 @@ sudo apt-get install bat
 ```
 Installing PlugInstall
 ```
-curl -fLo ~/.vim/autoload/plug.vim --create-dirs \\
-    https://raw.githubusercontent.com/junegunn/vim-plug/master/plug.vim
+wget https://raw.githubusercontent.com/junegunn/vim-plug/master/plug.vim
+```
+Put plug.vim in ~/.vim/autoload
+```
+sudo mv plug.vim ~/.vim/autoload
 ```
 Installing and configuring Powerlevel10k
 ```
